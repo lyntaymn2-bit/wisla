@@ -410,5 +410,7 @@ $$('#qp .btn').forEach(b=>b.onclick=()=>{try{const s=$('#from');if([...s.options
 function chkStats(){try{if(location.hash==='#stats'){let v=0,x=0;try{v=localStorage.getItem('w_v')||0;x=localStorage.getItem('w_t')||0}catch(e){}modal('<h3 style="color:var(--teal)">'+t('st0')+'</h3><p>'+t('st1')+': <b>'+v+'</b></p><p>'+t('st2')+': <b>'+x+'</b></p>')}}catch(e){}}
 window.addEventListener('hashchange',chkStats);chkStats();
 </script>
+<script data-goatcounter="https://goatcounter.com" async src="//gc.zgo.at/count.js"></script>
+  
 </body>
 </html>
